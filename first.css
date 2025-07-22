@@ -1,0 +1,95 @@
+* {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        color: #000;
+        background-color: #f3f6ff;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      /* Container for centered content */
+      .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+      /* Header Section */
+      header {
+        position: relative;
+        background-color: #f3f6ff;
+        padding: 80px 24px;
+        text-align: center;
+        overflow: hidden;
+      }
+      header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('assests/Hero-bg.png');
+        background-repeat: repeat;
+        /* opacity: 0.1; */
+        z-index: 1;
+      }
+      header .header-inner {
+        position: relative;
+        z-index: 1;
+        max-width: 1200px;
+        margin: 0 auto 48px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header .logo {
+        font-weight: bold;
+        font-size: 33px;
+        color: #4b5bff;
+        user-select: none;
+      }
+      header .signup-btn {
+        background-color: #4b5bff;
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 8px 16px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      header .signup-btn:hover {
+        background-color: #3a47d1;
+      }
+      header h1 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.2;
+        max-width: 600px;
+        margin: 0 auto 24px auto;
+        position: relative;
+        z-index: 1;
+      }
+      header .stay-focused-btn {
+        background-color: #4b5bff;
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 8px 20px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        position: relative;
+        z-index: 1;
+      }
+      header .stay-focused-btn:hover {
+        background-color: #3a47d1;
+      }
