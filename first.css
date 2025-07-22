@@ -93,3 +93,51 @@
       header .stay-focused-btn:hover {
         background-color: #3a47d1;
       }
+
+      /* "See It in Action" Section */
+      .see-action {
+        padding: 64px 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+      }
+      .see-action .text-block {
+        max-width: 400px;
+        flex: 1 1 320px;
+      }
+      .see-action h2 {
+        font-weight: 600;
+        font-size: 20px;
+        margin: 0 0 12px 0;
+      }
+      .see-action p {
+        font-weight: 400;
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 1.4;
+        margin: 0 0 20px 0;
+      }
+      .see-action .launch-btn {
+        background-color: #4b5bff;
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 8px 20px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .see-action .launch-btn:hover {
+        background-color: #3a47d1;
+      }
+      .see-action img {
+        border-radius: 24px;
+        max-width: 320px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        flex: 1 1 320px;
+      }
