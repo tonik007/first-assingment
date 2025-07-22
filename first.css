@@ -235,3 +235,45 @@
         border-radius: 50%;
         object-fit: cover;
       }
+
+      /* "Ready to focus better" Section */
+      .ready-section {
+        max-width: 800px;
+        margin: 0 auto 80px auto;
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 48px;
+        text-align: center;
+      }
+      .ready-section h3 {
+        font-weight: 600;
+        font-size: 22px;
+        margin-bottom: 8px;
+      }
+      .ready-section p {
+        font-weight: 400;
+        font-size: 12px;
+        color: #7a7a7a;
+        margin-bottom: 24px;
+      }
+      .ready-section .get-started-btn {
+        background-color: #4b5bff;
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 8px 28px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 32px;
+        transition: background-color 0.3s ease;
+      }
+      .ready-section .get-started-btn:hover {
+        background-color: #3a47d1;
+      }
+      .ready-section img {
+        width: 100%;
+        height: auto;
+        border-radius: 24px;
+        object-fit: cover;
+      }
